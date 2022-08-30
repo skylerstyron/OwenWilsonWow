@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.wow-btn {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #8DB48E;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.wow-btn:hover {
+    cursor: pointer;
+}
+
+.wow-btn:active {
+    /* color: #222; */
+    /* background-color: #719072; */
+    top: 0.05em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+.movie-poster {
+    width: 20%;
+    border: none;
+    display: none;
+}
